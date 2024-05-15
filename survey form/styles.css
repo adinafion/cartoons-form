@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('p1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titlu {
+    margin: 5% auto;
+    text-align: center;
+    background-color: rgba(73, 79, 83, 0.425);
+    width: fit-content;
+    padding: 1% 2%;
+    font-family: cursive;
+    color: white;
+    border-radius: 10%;
+    box-shadow: 3px 3px 10px rgb(228, 103, 103);
+    text-shadow: 2px 2px 10px rgb(0, 0, 0),
+        2px 2px 10px rgb(0, 0, 0);
+}
+
+#survey-form {
+    width: 50%;
+    margin: 5% auto;
+}
+
+label {
+    display: block;
+}
+
+form {
+    background-color: rgba(219, 46, 46, 0.425);
+    box-shadow: 3px 3px 10px rgb(0, 0, 0),
+        3px 3px 10px rgb(0, 0, 0);
+    padding: 2em;
+}
+
+fieldset {
+    font-size: 150%;
+    font-family: cursive;
+    text-align: center;
+    border: none;
+    color: white;
+    text-shadow: 2px 2px 10px rgb(0, 0, 0),
+        2px 2px 10px rgb(0, 0, 0),
+        2px 2px 10px rgb(0, 0, 0),
+        2px 2px 10px rgb(0, 0, 0);
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+textarea {
+    display: block;
+    margin: 1% auto;
+    height: 30px;
+    width: 70%;
+    background-color: rgb(68, 4, 4);
+    border-color: rgb(68, 4, 4);
+    color: white;
+}
+
+.second,
+.third,
+.fourth,
+.fifth {
+    margin-top: 5%;
+}
+
+hr {
+    border-color: rgb(134, 14, 14);
+    width: 90%;
+    margin: 35px auto;
+}
+
+.third>label,
+.fourth>label {
+    padding: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 5px;
+    vertical-align: middle;
+}
+
+#submit {
+    display: block;
+    margin: 2em auto;
+    height: 40px;
+    width: 40%;
+    background-color: rgb(68, 4, 4);
+    border-color: rgb(68, 4, 4);
+    color: white;
+    font-size: 120%;
+    font-family: cursive;
+}
+
+#submit:hover {
+    background-color: rgb(131, 27, 27);
+    text-shadow: 2px 2px 10px black;
+    border-color: rgb(131, 27, 27);
+    box-shadow: 2px 2px 10px black;
+}
+
+.pose {
+    width: 8em;
+    margin-left: 5%;
+    box-shadow: 2px 2px 10px black;
+}
+
+/* aici aliniem elemente la centru in div! */
+.teext {
+    display: flex;
+    align-items: center;
+    padding: 1% 5%;
+}
+
+/* gata aliniere */
+.teext>label {
+    width: 50%;
+    max-width: 50%;
+}
